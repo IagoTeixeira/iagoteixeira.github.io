@@ -9,28 +9,58 @@
 </head>
 <body>
     <header>
-        <ul>
-            <a href="#sobre"><li>Sobre</li></a>
-            <a href="portifolio"><li>Portóflio</li></a>
-            <a href="portifolio"><li>Habilidades</li></a>
-            <a href="#contato"><li>Contato</li></a>
-        </ul>
     </header>
+    <nav>
+        <ul>
+            <a href="#incio"><li>Inicio</li></a>
+            <a href="#sobre"><li>Sobre</li></a>
+            <a href="#portifolio"><li>Portifólio</li></a>
+            <a href="#redesSociais"><li>Minhas Redes</li></a>
+        </ul>
+    </nav>
     <main>
+        <section id="incio">
+            <div id='imagem'>
+                <img src="imagens/eu.png" alt="minha-foto">
+                <h1>IAGO TEIXEIRA</h1>
+            </div>
+            <ul>
+                <li>Back End com Node.js</li>
+                <li>Automação com Python</li>
+                <li>Desnvolvedor Web -  Front End</li><br>
+                <li>Email: iago.teixeira@outlook.com.br</li>
+            </ul>
+        </section>
         <section id="sobre">
         </section>
         <section id="portifolio">
-            <h1>Portófolio</h1>
-            <a href="portifolio/pongbolim/pongbolim.html"><img src="imagens/pongbolim.PNG" alt="pongbolim-game"></a>
-            <p>Jogo Desenvolvido para ser jogado por duas pessoas, clique na imagem para jogar.</p>
-            <a href="pongbolim/pongbolim.html"><img src="imagens/landingPage.png" alt="pongbolim-game"></a>
-            <p>Front-end desenvolvido por mim desta landingPage, clique na imagem para visualizar.</p>
+            <h1>Portifólio</h1>
+            <div class="imagem">
+                <a href="portifolio/pongbolim/pongbolim.html" target="_blank" ><img src="imagens/pongbolim.PNG" alt="pongbolim-game" id="img1"></a>
+                <p id='pImg1'>Jogo Desenvolvido para ser jogado por duas pessoas, clique na imagem para jogar.</p>
+            </div>
+            <div class="imagem">
+                <a href="portifolio/landingpage/index.html" target="_blank"><img src="imagens/landingPage.png" alt="pongbolim-game" id="img2"></a>
+                <p id='pImg2'>Front-end desenvolvido por mim desta landingPage, clique na imagem para visualizar.</p>
+            </div>
 
         </section>
-        <section id="contato">
+        <section id="redesSociais">
+            <h2>Minhas Redes</h2>
+
+            <a href="https://github.com/IagoTeixeira" target="_blank"><img src="imagens/github.png" alt="github" id="github"></a>
+
+            <a href="https://www.linkedin.com/in/iago-teixeira-692708200/" target="_blank"><img src="imagens/linkedin.png" alt="linkedin" id="linkedin"></a>
+
+            <a href="https://www.facebook.com/agoteixeira" target="_blank"><img src="imagens/facebook.png" alt="linkedin" id="facebook"></a>
+
+            <a href="https://www.instagram.com/iagoteixeira2/" target="_blank"><img src="imagens/instagram.png" alt="linkedin" id="instagram"></a>
+            
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>Site desenvolvido por mim mesmo, Iago Teixeira.</p>
+    </footer>
     <script src="script/srcipt.js"></script>
 </body>
 </html>

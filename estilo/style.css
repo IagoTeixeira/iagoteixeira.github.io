@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+  }
+body{
+    background-color: #52c579;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media(min-width: 847px){
+    header{
+        background-color: white;
+        display: flex;
+        height: 100px;
+        width: 100%;
+        position: fixed;
+        margin-top: -2.0em;
+        
+    }
+    nav{
+        display: relative;
+        position: absolute;
+        right: 340px;
+        top: 20px;  
+        vertical-align: middle;
+        position: fixed;
+        width: 500px;
+    }
+
+    nav > ul > a > li{
+        color: black;
+        font-size: 1.5em;
+        display: inline-block;
+        padding-right: 15px;
+        padding-left: 4px;
+        padding-top: 1px;
+        margin-top: 1px;      
+    }
+    main{
+        padding-top: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #incio{
+        padding-top: 80px;
+        padding-bottom: 20px;
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: .2rem;
+    }
+    #imagem > h1{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #sobre{
+        padding-top: 80px;
+        background-color: white;
+    }
+    #sobre > p{
+        text-align: center;
+        margin-left: 250px;
+        margin-right: 200px;
+        padding-bottom: 25px;
+        letter-spacing: .2rem;
+    }
+    #sobre > h1{
+        color: black;
+        text-align: center;
+        margin-top: 1px;
+        margin-bottom: 25px;
+        padding-top: 15px;
+        
+    }
+
+    #portifolio > h1{
+        color: black;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 68px
+    }
+    .imagem{
+        display:inline-block;
+        width: 400px;
+        height: 280px;
+        margin-left: 200px;
+    }
+    .imagem:hover{
+        box-shadow: 0px 4px 17px 10px rgba(79, 104, 216, 0.514);
+    }
+    #img1{
+        height: 280px;
+        width: 400px;
+    }
+    #img2{
+        width: 400px;
+        height: 280px;
+    }
+    #pImg1{
+        padding-top: 15px;
+        width: 400px;
+        text-align: center;
+    }
+    #pImg2{
+        padding-top: 15px;
+        width: 400px;
+        text-align: center;
+    }
+
+    #redesSociais{
+        text-align: center;
+        background-color: white;
+        margin-top: 50px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+        
+    }
+    #redesSociais > h2{
+        margin-bottom: 25px;
+
+    }
+    #linkedin{
+        margin-left: 15px;
+    }
+    #facebook{
+        margin-left: 15px;
+    }
+    #instagram{
+        margin-left: 15px;
+    }
+    footer{
+        background-color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    #redesSociais > a > img:hover{
+        box-shadow: 0px 4px 17px 10px rgba(79, 104, 216, 0.514);
+    }
+}
+
+@media (max-width: 846px){
+    body{
+        font-size: clamp(0.5em, 1em, 0.5em);
+        width: 100%;
+    }
+    header{
+        background-color: white;
+        height: 100px;
+        position: fixed;
+        margin-top: -2.0em;
+        min-width: 100%; 
+        
+    }
+    nav{
+        display: relative;
+        position: absolute;
+        right: 50px;
+        top: 20px;  
+        vertical-align: middle;
+        position: fixed;
+        width: 230px;
+    }
+
+    nav > ul > a > li{
+        color: black;
+        font-size: 1em;
+        display: inline-block;
+        padding-right: 15px;
+        padding-left: 4px;
+        padding-top: 1px;
+        margin-top: 1px;      
+    }
+    main{
+        padding-top: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        min-height: 100%; 
+        min-width: 100%; 
+    }
+    #incio{
+        padding-top: 80px;
+        padding-bottom: 20px;
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: .2rem;
+        min-height: 100%; 
+        min-width: 100%; 
+    }
+    #imagem > h1{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #sobre{
+        padding-top: 80px;
+        background-color: white;
+        width: 100%;
+    }
+    #sobre > p{
+        text-align: center;
+        padding-bottom: 25px;
+        letter-spacing: .2rem;
+        text-justify: center;
+    }
+    #sobre > h1{
+        color: black;
+        text-align: center;
+        margin-top: 1px;
+        margin-bottom: 25px;
+        padding-top: 15px;
+        
+    }
+
+    #portifolio > h1{
+        color: black;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 68px;
+        width: 100%;
+    }
+    .imagem{
+        display:inline-block;
+        width: 100%;
+        height: 280px;
+    }
+    .imagem:hover{
+        box-shadow: 0px 4px 17px 10px rgba(79, 104, 216, 0.514);
+    }
+    #img1{
+        height: 280px;
+        width: 100%;
+    }
+    #img2{
+        width: 100%;
+        height: 280px;
+    }
+    #pImg1{
+        padding-top: 15px;
+        text-align: center;
+    }
+    #pImg2{
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    #redesSociais{
+        text-align: center;
+        background-color: white;
+        margin-top: 50px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+        
+    }
+    #redesSociais > h2{
+        margin-bottom: 25px;
+
+    }
+    #linkedin{
+        margin-left: 15px;
+    }
+    #facebook{
+        margin-left: 15px;
+    }
+    #instagram{
+        margin-left: 15px;
+    }
+    footer{
+        background-color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    #redesSociais > a > img:hover{
+        box-shadow: 0px 4px 17px 10px rgba(79, 104, 216, 0.514);
+    }
+}
