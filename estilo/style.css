@@ -75,7 +75,7 @@ html{
         text-align: center;
         margin-left: 250px;
         margin-right: 200px;
-        padding-bottom: 25px;
+        padding-bottom: 80px;
         letter-spacing: .2rem;
     }
     #sobre > h1{
@@ -86,7 +86,10 @@ html{
         padding-top: 15px;
         
     }
-
+    #portifolio{
+        width: 100%;
+        margin-bottom: 80px;
+    }
     #portifolio > h1{
         color: black;
         text-align: center;
@@ -98,7 +101,7 @@ html{
         display:inline-block;
         width: 400px;
         height: 280px;
-        margin-left: 200px;
+        margin-left: 170px;
     }
     .imagem:hover{
         box-shadow: 0px 4px 17px 10px rgba(79, 104, 216, 0.514);
@@ -219,7 +222,7 @@ html{
     }
     #sobre > p{
         text-align: center;
-        padding-bottom: 25px;
+        padding-bottom: 80px;
         letter-spacing: .2rem;
         text-justify: center;
     }
