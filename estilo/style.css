@@ -91,7 +91,8 @@ html{
         text-align: center;
         margin-top: 25px;
         margin-bottom: 25px;
-        padding-top: 68px
+        padding-top: 68px;
+        padding-left: 15px;
     }
     .imagem{
         display:inline-block;
@@ -284,12 +285,12 @@ html{
     #instagram{
         margin-left: 15px;
     }
+    #redesSociais > a > img:hover{
+        box-shadow: 0px 4px 17px 10px rgba(79, 104, 216, 0.514);
+    }
     footer{
         background-color: white;
         text-align: center;
         font-size: 20px;
-    }
-    #redesSociais > a > img:hover{
-        box-shadow: 0px 4px 17px 10px rgba(79, 104, 216, 0.514);
     }
 }
