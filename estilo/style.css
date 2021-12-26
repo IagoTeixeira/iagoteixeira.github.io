@@ -27,14 +27,15 @@ html{
     nav{
         display: relative;
         position: absolute;
-        right: 340px;
         top: 20px;  
         vertical-align: middle;
         position: fixed;
-        width: 500px;
+        width: 100%;
+        text-align: center;
     }
 
     nav > ul > a > li{
+        text-align: center;
         color: black;
         font-size: 1.5em;
         display: inline-block;
