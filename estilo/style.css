@@ -43,7 +43,8 @@ html{
         padding-right: 15px;
         padding-left: 15px;
         padding-top: 1px;
-        margin-top: 1px;      
+        margin-top: 1px;   
+        text-decoration: none;   
     }
     nav > ul > a > li:hover{
         background-color: #52c579;
@@ -92,7 +93,6 @@ html{
         margin-top: 25px;
         margin-bottom: 25px;
         padding-top: 68px;
-        padding-left: 15px;
     }
     .imagem{
         display:inline-block;
@@ -184,7 +184,8 @@ html{
         padding-right: 15px;
         padding-left: 15px;
         padding-top: 1px;
-        margin-top: 1px;      
+        margin-top: 1px;
+        text-decoration: none;   
     }
     nav > ul > a > li:hover{
         background-color: #52c579;
