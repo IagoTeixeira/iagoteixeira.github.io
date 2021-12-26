@@ -36,13 +36,20 @@ html{
 
     nav > ul > a > li{
         text-align: center;
+        text-justify: center;
         color: black;
         font-size: 1.5em;
         display: inline-block;
         padding-right: 15px;
-        padding-left: 4px;
+        padding-left: 15px;
         padding-top: 1px;
         margin-top: 1px;      
+    }
+    nav > ul > a > li:hover{
+        background-color: #52c579;
+        transition-duration: 1s;
+        color: white;
+        border-radius: 5px;
     }
     main{
         padding-top: 50px;
@@ -161,20 +168,29 @@ html{
     nav{
         display: relative;
         position: absolute;
-        right: 50px;
         top: 20px;  
         vertical-align: middle;
         position: fixed;
-        width: 230px;
+        width: 100%;
+        text-align: center;
     }
 
     nav > ul > a > li{
+        text-align: center;
+        text-justify: center;
         color: black;
+        font-size: 1.5em;
         display: inline-block;
         padding-right: 15px;
-        padding-left: 4px;
+        padding-left: 15px;
         padding-top: 1px;
         margin-top: 1px;      
+    }
+    nav > ul > a > li:hover{
+        background-color: #52c579;
+        transition-duration: 1s;
+        color: white;
+        border-radius: 5px;
     }
     main{
         padding-top: 50px;
